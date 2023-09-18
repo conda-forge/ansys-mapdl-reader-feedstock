@@ -1,5 +1,5 @@
 {% set name = "ansys-mapdl-reader" %}
-{% set version = "0.52.7" %}
+{% set version = "0.52.20" %}
 
 package:
   name: ansys-mapdl-reader
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ansys-mapdl-reader-{{ version }}.tar.gz
-  sha256: c1dd723ae67add49b9c858926619988ecadb76dbd82dff63591c51e5c83e9f8f
+  sha256: 5c75af329809cd79a7b41b1f8f0663a56f4be34d1d36e65e833afa12662478ef
 
 build:
   number: 0
