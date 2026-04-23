@@ -10,13 +10,14 @@ source:
   sha256: c1dd723ae67add49b9c858926619988ecadb76dbd82dff63591c51e5c83e9f8f
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
   skip: true  # [osx]
 
 requirements:
   build:
     - {{ compiler('cxx') }}
+    - {{ stdlib("c") }}
   host:
     - cython
     - numpy
